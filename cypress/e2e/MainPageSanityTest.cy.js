@@ -1,8 +1,8 @@
 describe('main page sanity test', () => {
 
     it('navigates to the main page', () => {
-    cy.visit('https://consumersenergymanagement.ca/') 
-    cy.url().should('eq', 'https://consumersenergymanagement.ca/')
+    cy.visit('/') 
+    cy.url().should('eq', '/')
 })
 
     it('indicates top head banner on the main page', () => {
@@ -15,6 +15,4 @@ describe('main page sanity test', () => {
     })
 
 })
-
-
 

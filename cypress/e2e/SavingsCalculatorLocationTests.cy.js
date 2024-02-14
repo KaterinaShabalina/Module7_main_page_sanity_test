@@ -16,7 +16,7 @@ describe('template spec', () => {
     cy.get(state_list).should('be.visible')
     cy.get(state_list).select('Texas')
     cy.get(city_list).should('be.visible')
-    cy.get(city_list).should('be.visible').select('option value')
+    cy.get(city_list).should('be.visible').select('TX-Abilene')
 
     })
 
