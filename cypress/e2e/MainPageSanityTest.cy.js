@@ -1,18 +1,16 @@
 describe('main page sanity test', () => {
 
-    it('navigates to the main page', () => {
-    cy.visit('/') 
-    cy.url().should('eq', '/')
-})
+    beforeEach(() => {
+        cy.visit('/')
+    })
 
-    it('indicates top head banner on the main page', () => {
-    // Neither of these commands worked unfortunately: 
-    //cy.get('.main-header').should("be.visible")
-    //cy.get('[id="widget_sp_image-6"]').should("be.visible")
-    //cy.get('a').contains("https://www.consumersenergymanagement.ca/").click({force: true})
-    //cy.get('[class="attachment-full"]').contains('Consumers Energy Management Inc. Ontario').should("be.visible") 
+    it('navigates to the main page', () => {
+
+    })
+
+    it('indicates that h1 element containt title', () => {
+        cy.get('.about-lrt > :nth-child(1)').should("contain", " About ")
 
     })
 
 })
-

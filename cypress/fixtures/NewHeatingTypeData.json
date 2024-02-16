@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "new_heating_type": "Natural Gas"
+        },
+        {
+            "new_heating_type": "Propan"
+        },
+        {
+            "new_heating_type": "Oil"
+        },
+        {
+            "new_heating_type": "Electric"
+        },
+        {
+            "new_heating_type": "Heat Pump"
+        },
+        {
+            "new_heating_type": "Dual Fuel-Natural Gas"
+        },
+        {
+            "new_heating_type": "Dual Fuel Oil"
+        },
+        {
+            "new_heating_type": "Dual Fuel-Propan"
+        }
+    ]
+}

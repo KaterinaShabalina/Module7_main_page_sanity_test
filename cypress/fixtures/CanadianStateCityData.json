@@ -1,0 +1,36 @@
+{
+    "data": [
+        {
+            "state": "Alabama",
+            "city": "AL-Huntsville"
+        },
+
+        {
+            "state": "Alaska",
+            "city": "AK-Anchoraga"
+        },
+
+        {
+            "state": "Alberta",
+            "city": "Calgary"
+
+        },
+
+        {
+            "state": "Arizona",
+            "city": "AZ-Flagstaff"
+
+        },
+
+        {
+            "state": "Arkansas",
+            "city": "AR-Fort Smith"
+        },
+
+        {
+            "state": "British Columbia",
+            "city": "Vancouver"
+        }
+
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "current_heating_type": "Natural Gas"
+        },
+
+        {
+            "current_heating_type": "Propan"
+        },
+        {
+            "current_heating_type": "Oil"
+        },
+
+        {
+            "current_heating_type": "Electric"
+        },
+
+        {
+            "current_heating_type": "Heat Pump"
+        }
+
+
+    ]
+}
